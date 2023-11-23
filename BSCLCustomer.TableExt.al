@@ -11,6 +11,9 @@ tableextension 50201 "BSCL Customer" extends Customer
             end;
         }
     }
+    /// <summary>
+    /// Anzeige des Favorite Book Card...
+    /// </summary>
     procedure ShowFavoriteBook()
     var
         BSBBook: Record "BSB Book";
